@@ -23,7 +23,8 @@ node.ram = 4096
 node.routable_control_ip = "true" 
 
 bs_landing = node.Blockstore("bs_image", "/image")
-bs_landing.size = "500GB"
+# bs_landing.size = "500GB"
+bs_landing.size = "300GB"
   
 node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU22-64-STD"
 node.routable_control_ip = "true"
